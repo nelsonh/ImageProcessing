@@ -7,11 +7,13 @@
 //
 
 #import "ImageProcessingViewController.h"
+#import "ProcessingHelper.h"
 
 @implementation ImageProcessingViewController
 
 - (void)dealloc
 {
+    [ImageContainer release];
     [super dealloc];
 }
 
@@ -35,6 +37,8 @@
 
 - (void)viewDidUnload
 {
+    [ImageContainer release];
+    ImageContainer = nil;
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -44,6 +48,27 @@
 {
     // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+
+- (IBAction)ProcessImage:(id)sender {
+    
+    if(ImageContainer)
+    {
+       UIImage *image=[ProcessingHelper grayScale:ImageContainer.image];
+        
+        if(image)
+        {
+            [ImageContainer setImage:image];
+        }
+    }
+}
+
+- (IBAction)reset:(id)sender {
+    
+    if(ImageContainer)
+    {
+        [ImageContainer setImage:[UIImage imageNamed:@"image.png"]];
+    }
 }
 
 @end

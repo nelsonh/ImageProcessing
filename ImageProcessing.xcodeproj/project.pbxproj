@@ -22,6 +22,8 @@
 		52601FB913F4CB4D000CC094 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52601FB713F4CB4D000CC094 /* InfoPlist.strings */; };
 		52601FBC13F4CB4D000CC094 /* ImageProcessingTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 52601FBB13F4CB4D000CC094 /* ImageProcessingTests.h */; };
 		52601FBE13F4CB4D000CC094 /* ImageProcessingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52601FBD13F4CB4D000CC094 /* ImageProcessingTests.m */; };
+		52601FC813F4CBBC000CC094 /* Image.png in Resources */ = {isa = PBXBuildFile; fileRef = 52601FC713F4CBBC000CC094 /* Image.png */; };
+		52601FCF13F4CDE4000CC094 /* ProcessingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 52601FCE13F4CDE3000CC094 /* ProcessingHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,22 +41,25 @@
 		52601F8E13F4CB4D000CC094 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		52601F9013F4CB4D000CC094 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		52601F9213F4CB4D000CC094 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		52601F9613F4CB4D000CC094 /* ImageProcessing-Info.plist */ = {isa = PBXFileReference; path = "ImageProcessing-Info.plist"; sourceTree = "<group>"; };
+		52601F9613F4CB4D000CC094 /* ImageProcessing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageProcessing-Info.plist"; sourceTree = "<group>"; };
 		52601F9813F4CB4D000CC094 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		52601F9A13F4CB4D000CC094 /* ImageProcessing-Prefix.pch */ = {isa = PBXFileReference; path = "ImageProcessing-Prefix.pch"; sourceTree = "<group>"; };
+		52601F9A13F4CB4D000CC094 /* ImageProcessing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImageProcessing-Prefix.pch"; sourceTree = "<group>"; };
 		52601F9B13F4CB4D000CC094 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		52601F9D13F4CB4D000CC094 /* ImageProcessingAppDelegate.h */ = {isa = PBXFileReference; path = ImageProcessingAppDelegate.h; sourceTree = "<group>"; };
+		52601F9D13F4CB4D000CC094 /* ImageProcessingAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageProcessingAppDelegate.h; sourceTree = "<group>"; };
 		52601F9E13F4CB4D000CC094 /* ImageProcessingAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageProcessingAppDelegate.m; sourceTree = "<group>"; };
 		52601FA113F4CB4D000CC094 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		52601FA313F4CB4D000CC094 /* ImageProcessingViewController.h */ = {isa = PBXFileReference; path = ImageProcessingViewController.h; sourceTree = "<group>"; };
+		52601FA313F4CB4D000CC094 /* ImageProcessingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageProcessingViewController.h; sourceTree = "<group>"; };
 		52601FA413F4CB4D000CC094 /* ImageProcessingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageProcessingViewController.m; sourceTree = "<group>"; };
 		52601FA713F4CB4D000CC094 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ImageProcessingViewController.xib; sourceTree = "<group>"; };
 		52601FAE13F4CB4D000CC094 /* ImageProcessingTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageProcessingTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		52601FB613F4CB4D000CC094 /* ImageProcessingTests-Info.plist */ = {isa = PBXFileReference; path = "ImageProcessingTests-Info.plist"; sourceTree = "<group>"; };
+		52601FB613F4CB4D000CC094 /* ImageProcessingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageProcessingTests-Info.plist"; sourceTree = "<group>"; };
 		52601FB813F4CB4D000CC094 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		52601FBA13F4CB4D000CC094 /* ImageProcessingTests-Prefix.pch */ = {isa = PBXFileReference; path = "ImageProcessingTests-Prefix.pch"; sourceTree = "<group>"; };
+		52601FBA13F4CB4D000CC094 /* ImageProcessingTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImageProcessingTests-Prefix.pch"; sourceTree = "<group>"; };
 		52601FBB13F4CB4D000CC094 /* ImageProcessingTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageProcessingTests.h; sourceTree = "<group>"; };
 		52601FBD13F4CB4D000CC094 /* ImageProcessingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageProcessingTests.m; sourceTree = "<group>"; };
+		52601FC713F4CBBC000CC094 /* Image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Image.png; path = ImageProcessing/Image.png; sourceTree = "<group>"; };
+		52601FCD13F4CDE3000CC094 /* ProcessingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProcessingHelper.h; path = ../ProcessingHelper.h; sourceTree = "<group>"; };
+		52601FCE13F4CDE3000CC094 /* ProcessingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProcessingHelper.m; path = ../ProcessingHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +89,7 @@
 		52601F7F13F4CB4D000CC094 = {
 			isa = PBXGroup;
 			children = (
+				52601FC913F4CBC4000CC094 /* Resource */,
 				52601F9413F4CB4D000CC094 /* ImageProcessing */,
 				52601FB413F4CB4D000CC094 /* ImageProcessingTests */,
 				52601F8D13F4CB4D000CC094 /* Frameworks */,
@@ -119,6 +125,8 @@
 				52601FA313F4CB4D000CC094 /* ImageProcessingViewController.h */,
 				52601FA413F4CB4D000CC094 /* ImageProcessingViewController.m */,
 				52601FA613F4CB4D000CC094 /* ImageProcessingViewController.xib */,
+				52601FCD13F4CDE3000CC094 /* ProcessingHelper.h */,
+				52601FCE13F4CDE3000CC094 /* ProcessingHelper.m */,
 				52601F9513F4CB4D000CC094 /* Supporting Files */,
 			);
 			path = ImageProcessing;
@@ -153,6 +161,14 @@
 				52601FBA13F4CB4D000CC094 /* ImageProcessingTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52601FC913F4CBC4000CC094 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				52601FC713F4CBBC000CC094 /* Image.png */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,6 +241,7 @@
 				52601F9913F4CB4D000CC094 /* InfoPlist.strings in Resources */,
 				52601FA213F4CB4D000CC094 /* MainWindow.xib in Resources */,
 				52601FA813F4CB4D000CC094 /* ImageProcessingViewController.xib in Resources */,
+				52601FC813F4CBBC000CC094 /* Image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +280,7 @@
 				52601F9C13F4CB4D000CC094 /* main.m in Sources */,
 				52601F9F13F4CB4D000CC094 /* ImageProcessingAppDelegate.m in Sources */,
 				52601FA513F4CB4D000CC094 /* ImageProcessingViewController.m in Sources */,
+				52601FCF13F4CDE4000CC094 /* ProcessingHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

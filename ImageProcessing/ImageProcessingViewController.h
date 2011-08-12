@@ -10,6 +10,10 @@
 
 @interface ImageProcessingViewController : UIViewController {
     
+    IBOutlet UIImageView *ImageContainer;
 }
+
+- (IBAction)ProcessImage:(id)sender;
+- (IBAction)reset:(id)sender;
 
 @end
